@@ -20,7 +20,7 @@ TYPE=$1
 debugger(){
 set -x
 }
-<http://'$(/usr/bin/cat /tmp/hostname-nomad.txt)':3000/nomad/THD/clients|DOWN AGENTS>='$(/usr/bin/cat /tmp/nomad-agent-down.txt)'
+
 alerting(){
 if [[ -n ${SPROXY} ]]; then
   if [[ ${TYPE} == zombie ]]; then
