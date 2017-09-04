@@ -2,7 +2,7 @@
 A 10MB container/service for sending alerts to Slack for common Nomad job problems/issues.<br>
 https://hub.docker.com/r/multipathmaster/nomadsm <br>
 <br>
-<br>
+<img src=https://raw.githubusercontent.com/multipathmaster/nomadsm/master/img/SLACK_ALERT.png><br>
 #QUICK OVERVIEW:<br>
 docker-entrypoint.sh is the entrypoint. It calls upon dead_man_switch.sh.<br>
 dead_man_switch.sh starts the nmd_evnt_mntr.sh instances, as well a providing other options.<br>
